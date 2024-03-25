@@ -42,6 +42,8 @@ jobs:
         run: sudo snap install dart-sass
       - name: Transform PostCSS CLI
         run: npm install postcss-cli -g
+      - name: Install TinaCMS CLI
+        run: npm install @tinacms/cli -g
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -57,9 +59,10 @@ jobs:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-          #NEXT_PUBLIC_TINA_CLIENT_ID: 806be36a-d08a-4600-bd0b-96f32c0a0834
-          #TINA_TOKEN: 8294ab5b57a0e703749167b742b9ee166afdbf54
+          NEXT_PUBLIC_TINA_CLIENT_ID: 79b10941-d7a4-429a-b4dc-41e47da31e65
+          TINA_TOKEN: 11eb6e2ebdb63977716dcc8bcf3674aeb7fdaca0
         run: |
+          npx tinacms build && \
           hugo \
             --gc \
             --minify \
