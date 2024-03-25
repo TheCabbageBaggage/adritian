@@ -42,8 +42,6 @@ jobs:
         run: sudo snap install dart-sass
       - name: Transform PostCSS CLI
         run: npm install postcss-cli -g
-      - name: Install TinaCMS CLI
-        run: npm install @tinacms/cli -g
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -62,7 +60,6 @@ jobs:
           NEXT_PUBLIC_TINA_CLIENT_ID: 79b10941-d7a4-429a-b4dc-41e47da31e65
           TINA_TOKEN: 11eb6e2ebdb63977716dcc8bcf3674aeb7fdaca0
         run: |
-          npx tinacms build && \
           hugo \
             --gc \
             --minify \
