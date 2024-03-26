@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Hello</title>
+    <link>https://thecabbagebaggage.github.io/adritian/publications/</link>
+    <description>Recent content in Publications on Hello</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://thecabbagebaggage.github.io/adritian/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://thecabbagebaggage.github.io/adritian/publications/publication/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://thecabbagebaggage.github.io/adritian/publications/publication/</guid>
+      <description>My Publications Kohl, L., Fuchs, B., Berndt, R., Valtiner, D., Ansari, F., and Schlund, S. (2021b). Künstliche intelligenz im kompetenzmanagement. Zeitschrift für wirtschaftlichen Fabrikbetrieb, 116(7-8):534–537 Kohl, L., Ansari, F., and Sihn, W. (2021a). A modular federated learning architecture for integration of ai-enhanced assistance in industrial maintenance. WGAB, pages 229–242 Ansari, F., Kohl, L., and Sihn, W. (2023). A competence-based planning methodology for optimizing human resource allocation in industrial maintenance. CIRP Annals Ansari, F.</description>
+    </item>
+    
+  </channel>
+</rss>
