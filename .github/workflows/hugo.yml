@@ -44,8 +44,6 @@ jobs:
         run: npm install postcss-cli -g
       - name: Install TinaCMS CLI
         run: npm install @tinacms/cli -g
-      - name: Copy TinaCMS assets
-        run: cp -r ./node_modules/@tinacms/app ./node_modules/@tinacms/cli ./public/admin
       - name: Checkout
         uses: actions/checkout@v4
         with:
