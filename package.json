@@ -1,8 +1,4 @@
 {
-  "scripts": {
-    "dev": "tinacms dev -c \"hugo server -D\"",
-    "build": "tinacms build && hugo"
-  },
   "devDependencies": {
     "@tinacms/cli": "^1.5.42",
     "@types/node": "^20.11.30",
