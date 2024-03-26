@@ -1,4 +1,4 @@
-baseURL = "https://thecabbagebaggage.github.io/adritian"
+baseURL = "https://thecabbagebaggage.github.io/"
 languageCode = "en-us"
 title = "Hello"
 # publishDir = "docs"
