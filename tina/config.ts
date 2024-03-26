@@ -16,7 +16,7 @@ export default defineConfig({
   token: process.env.TINA_TOKEN,
 
   build: {
-    outputFolder: "admin",
+    outputFolder: "docs",
     publicFolder: "static",
     basePath: "/adritian"
   },
