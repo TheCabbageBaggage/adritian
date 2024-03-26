@@ -18,7 +18,7 @@ export default defineConfig({
   build: {
     outputFolder: "docs",
     publicFolder: "static",
-    basePath: "/adritian"
+   
   },
   media: {
     tina: {
