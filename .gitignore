@@ -8,5 +8,4 @@ node_modules
 builds
 package-lock.json
  
-node_modules
 .env
