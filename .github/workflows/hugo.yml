@@ -33,6 +33,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.124.0
+      NEXT_PUBLIC_TINA_CLIENT_ID: 5d20b3ad-a723-4711-8da8-b5dd2f49e10a
+      TINA_TOKEN: bcf7c429759e520c77f96593ea5aabf552d8be63
     steps:
       - name: Install Hugo CLI
         run: |
@@ -50,6 +52,8 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
+      - name: Install TinaCMS
+        run: npm install tinacms
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
