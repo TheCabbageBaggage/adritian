@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/publications/publication/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/publications/publication/</guid>
+      <description>My Publications Kohl, L., Fuchs, B., Berndt, R., Valtiner, D., Ansari, F., and Schlund, S. (2021b). Künstliche intelligenz im kompetenzmanagement. Zeitschrift für wirtschaftlichen Fabrikbetrieb, 116(7-8):534–537 Kohl, L., Ansari, F., and Sihn, W. (2021a). A modular federated learning architecture for integration of ai-enhanced assistance in industrial maintenance. WGAB, pages 229–242 Ansari, F., Kohl, L., and Sihn, W. (2023). A competence-based planning methodology for optimizing human resource allocation in industrial maintenance. CIRP Annals Ansari, F.</description>
+    </item>
+    
+    <item>
+      <title>Head of Production Optimization and Maintenance Management</title>
+      <link>/experience/austria/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/experience/austria/</guid>
+      <description>Head of Production Optimization and Maintenance Management 🦄 In my role as head of the production optimization and maintenance management group, I advance current application-oriented research topics to enable sustainable and digital transformation in maintenance. The thematic cornerstones are
+Artificial Intelligence in maintenance through the use of predictive maintenance models and chatbots Retrofit and edge devices for agile data collection and analysis Maintenance-as-a-Service approaches for assets, including parts management and refurbishment Integrated maintenance planning for linked production through mathematical modeling and Bayesian networks </description>
+    </item>
+    
+    <item>
+      <title>Industria Data Science Topic Lead</title>
+      <link>/experience/industria/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/experience/industria/</guid>
+      <description>Industria Data Science Topic Lead In my role as Industrial Data Science topic lead I was primarily responsible for the acquisition and management of research projects in the area of cognitive systems for industrial assistance systems.</description>
+    </item>
+    
+    <item>
+      <title>Research Associate </title>
+      <link>/experience/research/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/experience/research/</guid>
+      <description>Research Associate As part of the Digitalization and Competence Management group, my focus was on the technical lead of development projects for cognitive assistance systems, based on individual employee competencies, with the help of Industrial Data Science methods. This is reflected in the following industrial research projects (technical lead).
+TexCom: AI-based acquisition of employee competencies needed on the store floor. Methods: Natural Language Processing, Data Mining, Statistics, Machine Learning. Tex-As: Development of an AI-based assistance system to improve the maintenance workflow.</description>
+    </item>
+    
+    <item>
+      <title>Research Associate</title>
+      <link>/experience/research1/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/experience/research1/</guid>
+      <description>Research Associate As part of the research group Production and Maintenance Management at the Institute of Management Sciences, the research focus, in addition to teaching, is on the following areas:
+Knowledge-Based Maintenance Predictive &amp;amp; Prescriptive Maintenance Knowledge Discovery from Text Semantic Technology, NLP Predictive Data Analytics and Machine Learning Furthermore, the following TUW internal digitization grants were acquired by me: XR in Teaching - Evaluation and development of best practice examples of XR methods for teaching at the TU Wien digiTeachVR - Digital integral teaching course for the use of Virtual Reality in Industrial Data and Building Science.</description>
+    </item>
+    
+    <item>
+      <title>Big Data Engineer at TU.it</title>
+      <link>/experience/bigdata/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0100</pubDate>
+      
+      <guid>/experience/bigdata/</guid>
+      <description>Big Data Engineer at TU.it The core tasks include the support of the Big Data Cluster for teaching and research as well as the development of a Research Data Repository. This includes the following projects:
+Development and support of Data Warehouse Systemen (Hive, Impala, MongoDB) PoC of Research Data Repositories (CKAN, DSPACE, Dataverse) PoC TU Science Cloud (JupyterHub in combination with GitLab using Kubernetes with a GPU Cluster) Spark Performance Tuning Development of a Big Data test system Virtualization of Data Repository prototypes </description>
+    </item>
+    
+    <item>
+      <title>Student Assistant at TU.it</title>
+      <link>/experience/studentasst/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>/experience/studentasst/</guid>
+      <description>Student Assistant at TU.it General IT service for 1st level support for students and employees and 2nd level support for selected topics. During this time the following projects were implemented</description>
+    </item>
+    
+    <item>
+      <title>Hello, World!</title>
+      <link>/posts/hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hello-world/</guid>
+      <description>Hello World! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non lorem diam. Quisque vulputate nibh sodales eros pretium tincidunt. Aenean porttitor efficitur convallis. Nulla sagittis finibus convallis. Phasellus in fermentum quam, eu egestas tortor. Maecenas ac mollis leo. Integer maximus eu nisl vel sagittis.
+Suspendisse facilisis, mi ac scelerisque interdum, ligula ex imperdiet felis, a posuere eros justo nec sem. Nullam laoreet accumsan metus, sit amet tincidunt orci egestas nec.</description>
+    </item>
+    
+  </channel>
+</rss>
