@@ -48,7 +48,7 @@ theme = "adritian-free-hugo-theme"
 
   [[menu.footer]]
   name = "📚 Publications"
-  URL = "/publications"
+  URL = "/publication"
   weight = 3
 
   [[menu.footer]]
