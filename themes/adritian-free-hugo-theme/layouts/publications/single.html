@@ -24,7 +24,7 @@
                             <h5 class="book-title">{{ .title }}</h5>
                             <h6 class="book-author">, by {{ .author }}</h6>
                             <a class="goodreads-link" href="{{ .link }}" target="_blank" rel="noopener noreferrer">
-                                <img class="goodreads-search" src="/img/goodreads.svg" alt="Search in goodreads">
+                                <img class="goodreads-search" src="{{ relURL "img/goodreads.svg" }}" alt="Search in goodreads">
                             </a>
                             <p>{{ .description }}</p>
                         </li>
