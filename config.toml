@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://thecabbagebaggage.github.io/adritian"
 languageCode = "en-us"
 theme = "adritian-free-hugo-theme"
 
