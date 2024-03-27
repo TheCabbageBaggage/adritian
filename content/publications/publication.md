@@ -1,37 +1,37 @@
 ---
-date: 2021-05-01T00:00:00+01:00
 title: ""
+date: 2024-03-27
+categories:
+  - name: "Engineering Management"
+    id: "engineering-management"
+    books:
+      - title: "High Output Management"
+        author: "Andrew S. Grove"
+        link: "https://www.goodreads.com/search?q=High+Output+Management+Andrew+S.+Grove"
+        description: "Insights from former Intel CEO, with observations on how to make an organization effective at scale. Great insights on the importance of culture, leadership, and decision-making, and how to manage people and teams to maximize productivity (for the overall organization)."
+      - title: "Resilient Management"
+        author: "Lara Hogan"
+        link: "https://www.goodreads.com/search?q=Resilient+Management+Lara+Hogan"
+        description: "It has a very good toolset for first-time EM’s, or for anyone that wants to review some proven ways of working. It is structured in 5 chapters (“Meet your team”, “Grow your teammates”, “Set clear expectations”, “Communicate Effectively” and “Build resiliency”), and it’s full of good tips, with a human-centric approach. Very useful for these turbulent times!"
+      - title: "The Manager's Path: A Guide for Tech Leaders Navigating Growth and Change"
+        author: "Camille Fournier"
+        link: "https://www.goodreads.com/search?q=The+Manager%27s+Path+Camille+Fournier"
+        description: "Camille’s path will be very helpful for many getting into the technical management track. She went from Tech Lead to CTO - and describes the challenges as she switched roles. It served me to realize that once you’re managing people - that has to be the main priority, and the IC track (ie: fixing problems, developing) comes to a second place, or you end being a very weak and non present manager."
+  - name: "Organization design"
+    id: "organization-design"
+    books:
+      - title: "High Output Management"
+        author: "Andrew S. Grove"
+        link: "https://www.goodreads.com/search?q=High+Output+Management+Andrew+S.+Grove"
+        description: "Insights from former Intel CEO, with observations on how to make an organization effective at scale. Great insights on the importance of culture, leadership, and decision-making, and how to manage people and teams to maximize productivity (for the overall organization)."
+      - title: "Resilient Management"
+        author: "Lara Hogan"
+        link: "https://www.goodreads.com/search?q=Resilient+Management+Lara+Hogan"
+        description: "It has a very good toolset for first-time EM’s, or for anyone that wants to review some proven ways of working. It is structured in 5 chapters (“Meet your team”, “Grow your teammates”, “Set clear expectations”, “Communicate Effectively” and “Build resiliency”), and it’s full of good tips, with a human-centric approach. Very useful for these turbulent times!"
+      - title: "The Manager's Path: A Guide for Tech Leaders Navigating Growth and Change"
+        author: "Camille Fournier"
+        link: "https://www.goodreads.com/search?q=The+Manager%27s+Path+Camille+Fournier"
+        description: "Camille’s path will be very helpful for many getting into the technical management track. She went from Tech Lead to CTO - and describes the challenges as she switched roles. It served me to realize that once you’re managing people - that has to be the main priority, and the IC track (ie: fixing problems, developing) comes to a second place, or you end being a very weak and non present manager."
 ---
-##### My Publications
 
-1. Kohl, L., Fuchs, B., Berndt, R., Valtiner, D., Ansari, F., and Schlund, S. (2021b).
-Künstliche intelligenz im kompetenzmanagement. Zeitschrift für wirtschaftlichen Fabrikbetrieb, 116(7-8):534–537
-2. Kohl, L., Ansari, F., and Sihn, W. (2021a). A modular federated learning architecture for
-integration of ai-enhanced assistance in industrial maintenance. WGAB, pages 229–242
-3. Ansari, F., Kohl, L., and Sihn, W. (2023). A competence-based planning methodology
-for optimizing human resource allocation in industrial maintenance. CIRP Annals
-4. Ansari, F. and Kohl, L. (2022). AI-Enhanced Maintenance for Building Resilience and
-Viability in Supply Chains. Springer International Publishing, Cham
-5. Ansari, F., Kohl, L., Giner, J., and Meier, H. (2021). Text mining for ai enhanced
-failure detection and availability optimization in production systems. CIRP Annals,
-70(1):373–376
-6. Madreiter, T., Kohl, L., and Ansari, F. (2021). A text understandability approach
-for improving reliability-centered maintenance in manufacturing enterprises. In IFIP
-International Conference on Advances in Production Management Systems, pages
-161–170. Springer
-7. Passath, T., Huber, C., Kohl, L., Ansari, F., et al. (2021). A knowledge-based digital
-lifecycle-oriented asset optimisation. Tehnički glasnik, 15(2):226–234
-8. Tuli, T. B., Kohl, L., Chala, S. A., Manns, M., and Ansari, F. (2021). Knowledge-based
-digital twin for predicting interactions in human-robot collaboration. In 2021 26th IEEE
-International Conference on Emerging Technologies and Factory Automation (ETFA),
-pages 1–8. IEEE
-9. Biegel, T., Jourdan, N., Madreiter, T., Kohl, L., Fahle, S., Ansari, F., Kuhlenkötter, B.,
-and Metternich, J. (2022). Combining process monitoring with text mining for anomaly
-detection in discrete manufacturing. Available at SSRN 4073942
-10. Ansari, F. and Kohl, L. (2022). AI-Enhanced Maintenance for Building Resilience and
-Viability in Supply Chains. Springer International Publishing, Cham
-11. Kohl, L. and Ansari, F. (2023a). Chatbots in der instandhaltungsplanung: Industrielle
-anwendungsfälle und zukünftige perspektiven. Tagungsband zum ÖVIA-Kongress
-12. Kohl, L. and Ansari, F. (2023b). A knowledge graph-based learning assistance systems
-for industrial maintenance. In Proceedings of the 17th CIRP International Seminar on
-Intelligent Computation in Manufacturing Engineering (CIRP ICME’23). 3001in pres
+📚 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere natus sunt, repellendus animi nostrum architecto consequuntur! Possimus nesciunt aut tenetur adipisci pariatur, et explicabo? Nobis eaque aut sed similique nam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere natus sunt, repellendus animi nostrum architecto consequuntur! Possimus nesciunt aut tenetur adipisci pariatur, et explicabo? Nobis eaque aut sed similique👂

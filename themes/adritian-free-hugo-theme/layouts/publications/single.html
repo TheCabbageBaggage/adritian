@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{ partial "head.html" . }} {{ partial "head_custom.html" . }}
+</head>
+<body>
+    {{ partial "header.html" . }}
+
+    <section id="books" class="content-list section section--border-bottom rad-animation-group">
+        <div class="container">
+            <p class="lead">{{ .Content }}</p>
+            
+            {{ range .Params.categories }}
+            <div class="row">
+                <h2 id="{{ .id }}" class="book-category clearfix">
+                    <a href="#{{ .id }}" class="book-category-anchor">
+                        <span class="icon">🔗</span> {{ .name }}
+                    </a>
+                </h2>
+
+                <ul class="row col-12 book-category-content">
+                    {{ range .books }}
+                        <li class="book-content col-sm-12">
+                            <h5 class="book-title">{{ .title }}</h5>
+                            <h6 class="book-author">, by {{ .author }}</h6>
+                            <a class="goodreads-link" href="{{ .link }}" target="_blank" rel="noopener noreferrer">
+                                <img class="goodreads-search" src="/img/goodreads.svg" alt="Search in goodreads">
+                            </a>
+                            <p>{{ .description }}</p>
+                        </li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+
+        </div>
+    </section>
+
+    {{ partial "footer.html" . }} {{ partial "base-foot.html" . }}
+</body>
+</html>
