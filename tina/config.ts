@@ -85,6 +85,96 @@ export default defineConfig({
           },
         ],
       },
+
+      // publications
+      {
+        name: "publications",
+        label: "Publications",
+        path: "content/publications",
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+          },
+          {
+            type: "string",
+            name: "url",
+            label: "URL",
+          },
+          {
+            type: "datetime",
+            name: "date",
+            label: "Date",
+          },
+          {
+            type: "object",
+            name: "categories",
+            label: "Categories",
+            list: true,
+            itemProps: (item) => ({
+              label: item.name, // Use the name
+            }),
+            fields: [
+              {
+                type: "string",
+                name: "name",
+                label: "Name",
+              },
+              {
+                type: "string",
+                name: "id",
+                label: "ID",
+              },
+              {
+                type: "object",
+                name: "books",
+                label: "Books",
+                list: true,
+               
+                fields: [
+                  {
+                    type: "string",
+                    name: "title",
+                    label: "Title",
+                  },
+                  {
+                    type: "string",
+                    name: "author",
+                    label: "Author",
+                  },
+                  {
+                    type: "string",
+                    name: "link",
+                    label: "Link",
+                  },
+                  {
+                    type: "string",
+                    name: "description",
+                    label: "Description",
+                  },
+                ],
+                itemProps: (item) => ({
+                  label: item.title, // Use the name
+                }),
+              },
+            ],
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
+          },
+        ],
+
+      },
+
+
+
+
+
+
     ],
   },
 });

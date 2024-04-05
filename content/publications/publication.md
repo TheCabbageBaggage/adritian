@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Publications"
 url: publication
 date: 2024-03-27
 categories:
