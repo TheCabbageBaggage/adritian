@@ -13,7 +13,7 @@ showcase:
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
-    URL: "https://www.adrianmoreno.info/"
+    URL: "#contact"
   socialLinks:
     - icon: "linkedin"
       URL: "https://www.linkedin.com/in/adrianmoreno/"
