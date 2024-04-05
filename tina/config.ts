@@ -30,10 +30,22 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        name: "post",
-        label: "Posts",
-        path: "content/posts",
+        name: "experience",
+        label: "experience",
+        path: "content/experience",
+        ui: {
+          allowedActions: {
+            create: true,
+            delete: true,
+          },
+        },
         fields: [
+
+          {
+            type: "datetime",
+            name: "date",
+            label: "Date",
+          },
           {
             type: "string",
             name: "title",
@@ -41,6 +53,30 @@ export default defineConfig({
             isTitle: true,
             required: true,
           },
+          {
+            type: "string",
+            name: "jobTitle",
+            label: "jobTitle",
+          },
+
+          {
+            type: "string",
+            name: "company",
+            label: "company",
+          },
+
+          {
+            type: "string",
+            name: "location",
+            label: "location",
+          },
+
+          {
+            type: "string",
+            name: "duration",
+            label: "duration",
+          },
+
           {
             type: "rich-text",
             name: "body",

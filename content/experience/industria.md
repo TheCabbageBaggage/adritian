@@ -1,5 +1,5 @@
 ---
-date: 2021-04-01T00:00:00+01:00
+date: 2023-04-01T00:00:00+01:00
 draft: false
 title: "Industria Data Science Topic Lead"
 jobTitle: "Industria Data Science Topic Lead"
