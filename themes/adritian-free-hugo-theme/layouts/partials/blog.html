@@ -9,12 +9,12 @@
                 {{ end }}
                 {{ range $tags }}
                     <h4>{{ . }}</h4>
-                    <div class="experience"> <!-- Maintain the style here -->
+                    <div> <!-- Maintain the style here -->
                         <ul>
                             {{ $tag := . }}
                             {{ $tagPosts := where $posts "Params.tags" "intersect" (slice $tag) }}
                             {{ range $tagPosts }}
-                            <div class="education__title">
+                            <div class="education__title experience">
                                 <a   href="{{ .Permalink }}">{{ .Title }}</a>
                             </div>
                                 
