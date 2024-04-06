@@ -8,7 +8,7 @@
                     {{ $tags = union $tags .Params.tags }}
                 {{ end }}
                 {{ range $tags }}
-                    <h4>{{ . }}</h4>
+                    <h4 class="education__title">{{ . }}</h4>
                     <div> <!-- Maintain the style here -->
                         <ul>
                             {{ $tag := . }}

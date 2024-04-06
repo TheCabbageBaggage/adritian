@@ -646,7 +646,56 @@ export default defineConfig({
           },
         ],
       },
+      // blog
 
+      {
+        name: "blog",
+        label: "Blog",
+        path: "content/blog",
+        ui: {
+          allowedActions: {
+            create: true,
+            delete: true,
+          },
+        },
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+            isTitle: true,
+            required: true,
+          },
+
+          {
+            type: "datetime",
+            name: "date",
+            label: "Date",
+          },
+          
+          {
+            type: "string",
+            name: "tags",
+            label: "Topics",
+            list: true,
+          },
+
+          {
+            type: "string",
+            name: "description",
+            label: "Meta description",
+          },
+
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
+          },
+        ],
+      },
+
+      
 
 
     ],
