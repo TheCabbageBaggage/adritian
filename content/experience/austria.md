@@ -11,7 +11,7 @@ duration: "April. 2023 - current"
 
 In my role as head of the production optimization and maintenance management group, I advance
 current application-oriented research topics to enable sustainable and digital transformation in
-maintenance. The thematic cornerstones are
+maintenance. The thematic cornerstones are:
 
 - Artificial Intelligence in maintenance through the use of predictive maintenance models and
 chatbots
