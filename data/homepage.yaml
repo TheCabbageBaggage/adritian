@@ -76,7 +76,7 @@ experience:
   button3:
     icon: "icon-arrow-right"
     btnText: "All Experience"
-    URL: "/experience"
+    URL: "/adritian/experience"
   items:
     - title: "Sr. Front-End Developer"
       company: "Radity"

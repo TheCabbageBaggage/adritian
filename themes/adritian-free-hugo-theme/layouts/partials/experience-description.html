@@ -30,7 +30,7 @@
     {{ if .Site.Data.homepage.experience.button3.btnText }}
     <div class="col-12 col-lg-4">
       <a
-        href="{{ .Site.Data.homepage.experience.button3.URL | absURL }}"
+        href="{{ .Site.Data.homepage.experience.button3.URL | relURL }}"
         class="btn btn-frameless btn-block"
         rel="noopener noreferrer"
       >
