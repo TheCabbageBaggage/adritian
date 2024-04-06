@@ -1,0 +1,30 @@
+<section class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row flex-column-reverse flex-md-row rad-fade-down">
+            <div class="col-12 col-md-12 col-sm-6 mt-5 mt-sm-0">
+                {{ $posts := .Site.RegularPages.ByDate.Reverse }}
+                {{ $tags := slice }}
+                {{ range $posts }}
+                    {{ $tags = union $tags .Params.tags }}
+                {{ end }}
+                {{ range $tags }}
+                    <h4>{{ . }}</h4>
+                    <div class="experience"> <!-- Maintain the style here -->
+                        <ul>
+                            {{ $tag := . }}
+                            {{ $tagPosts := where $posts "Params.tags" "intersect" (slice $tag) }}
+                            {{ range $tagPosts }}
+                            <div class="education__title">
+                                <a   href="{{ .Permalink }}">{{ .Title }}</a>
+                            </div>
+                                
+                            {{ end }}
+                        </ul>
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+
+
