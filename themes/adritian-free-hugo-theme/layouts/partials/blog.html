@@ -1,30 +1,57 @@
-<section class="section section--border-bottom rad-animation-group">
+<section class="blog">
     <div class="container">
-        <div class="row flex-column-reverse flex-md-row rad-fade-down">
-            <div class="col-12 col-md-12 col-sm-6 mt-5 mt-sm-0">
-                {{ $posts := .Site.RegularPages.ByDate.Reverse }}
-                {{ $tags := slice }}
-                {{ range $posts }}
-                    {{ $tags = union $tags .Params.tags }}
-                {{ end }}
-                {{ range $tags }}
-                    <h4 class="education__title">{{ . }}</h4>
-                    <div> <!-- Maintain the style here -->
-                        <ul>
-                            {{ $tag := . }}
-                            {{ $tagPosts := where $posts "Params.tags" "intersect" (slice $tag) }}
-                            {{ range $tagPosts }}
-                            <div class="education__title experience">
-                                <a   href="{{ .Permalink }}">{{ .Title }}</a>
+
+        <div class="col-12 col-md-12 col-sm-6 mt-5 mt-sm-0">
+            <section class="list {{ .Kind }}-list">
+                {{- $paginator := .Paginator }}
+                {{- range $paginator.Pages }}
+                <article class="article mb-4">
+                    <a href="{{ .Permalink | relURL }}" class="article-titles">
+                        <h2 class="h2">{{ .Title }}</h2>
+                        {{ with .Params.subtitle }}<h3 class="article-subtitle">{{ . }}</h3>{{ end }}
+                    </a>
+                    <ul class="article-meta list-unstyled d-flex flex-wrap">
+                        <li class="article-meta-date mr-3"><time>{{ .Date.Format (default "January 2, 2006"
+                                $.Site.Params.dateFormat) }}</time></li>
+                        {{- if .Params.categories }}
+                        <li class="article-meta-categories mr-3">
+
+                            <div class="d-flex flex-wrap">
+                                {{- range .Params.categories }}
+                                <a href="{{ " /" | relURL }}categories/{{ . | urlize }}" class="mr-2">{{ . }}</a>
+                                {{- end }}
                             </div>
-                                
-                            {{ end }}
-                        </ul>
+                        </li>
+                        {{- end }}
+                        {{- if .Params.tags }}
+                        <li class="article-meta-tags">
+
+                            <div class="d-flex flex-wrap">
+                                {{- range .Params.tags }}
+                                <a href="{{ " /" | relURL }}tags/{{ . | urlize }}" class="mr-2">{{ . }}</a>
+                                {{- end }}
+                            </div>
+                        </li>
+                        {{- end }}
+                    </ul>
+
+
+                    {{- if .Params.image }}
+                    <a href="{{ .Permalink | relURL }}"><img src="{{ .Params.image }}" class="article-image" /></a>
+                    {{- end }}
+                    <div class="article-content mb-3">
+                        {{- if .Truncated }}
+                        {{ .Summary }}
+                        {{- else }}
+                        {{ .Content }}
+                        {{- end }}
                     </div>
-                {{ end }}
-            </div>
+                    <div class="article-readmore"><a href="{{ .Permalink | relURL }}">Read more...</a></div>
+                    <div class="article-floatclear"></div>
+                </article>
+                {{- end }}
+            </section>
         </div>
+
     </div>
 </section>
-
-

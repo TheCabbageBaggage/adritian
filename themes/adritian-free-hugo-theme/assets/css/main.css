@@ -9901,6 +9901,12 @@ textarea:focus {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
+.blog {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .section--border-bottom::after {
     content: "";
     position: absolute;
@@ -10290,11 +10296,7 @@ textarea:focus {
 @media (min-width: 992px) {
     .header .navbar .nav-item:hover .nav-link::after {
         -webkit-transform: scaleX(1);
-        transform: scaleX(1);
-    }
-    .header .navbar-text {
-        display: block;
-        width: auto;
+     width: auto;
         padding: 0;
     }
 }
