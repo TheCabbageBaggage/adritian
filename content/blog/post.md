@@ -2,8 +2,8 @@
 title: "Sample Blog Post-1"
 date: 2023-03-06T22:04:28+05:30
 tags:
-  - topic 2
-  - topics 3
+  - topic-1
+  - topics-3
 description: "Sample Blog description"
 ---
 # Sample Blog Post-1

@@ -18,7 +18,7 @@
 
                             <div class="d-flex flex-wrap">
                                 {{- range .Params.categories }}
-                                <a href="{{ " /" | relURL }}categories/{{ . | urlize }}" class="mr-2">{{ . }}</a>
+                                <a href="{{ "/" | absURL }}categories/{{ . | urlize }}" class="mr-2">{{ . }}</a>
                                 {{- end }}
                             </div>
                         </li>
@@ -28,7 +28,7 @@
 
                             <div class="d-flex flex-wrap">
                                 {{- range .Params.tags }}
-                                <a href="{{ " /" | relURL }}tags/{{ . | urlize }}" class="mr-2">{{ . }}</a>
+                                <a href="{{ "tags/" | absURL }}{{ . | urlize }}" class="mr-2">{{ . }}</a>
                                 {{- end }}
                             </div>
                         </li>
