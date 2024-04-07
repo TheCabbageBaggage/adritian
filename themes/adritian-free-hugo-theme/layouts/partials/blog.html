@@ -1,5 +1,5 @@
-<section class="blog">
-    <div class="container">
+<section class="blog ">
+    <div class="container ">
 
         <div class="col-12 col-md-12 col-sm-6 mt-5 mt-sm-0">
             <section class="list {{ .Kind }}-list">
@@ -7,7 +7,7 @@
                 {{- range $paginator.Pages }}
                 <article class="article mb-4">
                     <a href="{{ .Permalink | relURL }}" class="article-titles">
-                        <h2 class="h2">{{ .Title }}</h2>
+                        <h2 class="experience__title">{{ .Title }}</h2>
                         {{ with .Params.subtitle }}<h3 class="article-subtitle">{{ . }}</h3>{{ end }}
                     </a>
                     <ul class="article-meta list-unstyled d-flex flex-wrap">

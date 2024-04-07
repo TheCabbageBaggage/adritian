@@ -21,6 +21,10 @@ theme = "adritian-free-hugo-theme"
   [[params.plugins.js]]
   URL = "js/library/fontfaceobserver.js"
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
 
 # navigation
 [menu]
