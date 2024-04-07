@@ -6,8 +6,8 @@
                 {{- $paginator := .Paginator }}
                 {{- range $paginator.Pages }}
                 <article class="article mb-4">
-                    <a href="{{ .Permalink | relURL }}" class="article-titles">
-                        <h2 class="experience__title">{{ .Title }}</h2>
+                    <a href="{{ .Permalink | relURL }}" class="article-titles text-decoration-none ">
+                        <h2 class="experience__title  ">{{ .Title }}</h2>
                         {{ with .Params.subtitle }}<h3 class="article-subtitle">{{ . }}</h3>{{ end }}
                     </a>
                     <ul class="article-meta list-unstyled d-flex flex-wrap">
@@ -28,7 +28,7 @@
 
                             <div class="d-flex flex-wrap">
                                 {{- range .Params.tags }}
-                                <a href="{{ "tags/" | absURL }}{{ . | urlize }}" class="mr-2">{{ . }}</a>
+                                <a href="{{ "tags/" | absURL }}{{ . | urlize }}" class="mr-2 text-decoration-none">{{ . }}</a>
                                 {{- end }}
                             </div>
                         </li>
@@ -46,7 +46,7 @@
                         {{ .Content }}
                         {{- end }}
                     </div>
-                    <div class="article-readmore"><a href="{{ .Permalink | relURL }}">Read more...</a></div>
+                    <div class="article-readmore "><a class="text-decoration-none"  href="{{ .Permalink | relURL }}">Read more...</a></div>
                     <div class="article-floatclear"></div>
                 </article>
                 <hr>
