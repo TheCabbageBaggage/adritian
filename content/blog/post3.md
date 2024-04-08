@@ -5,8 +5,6 @@ tags:
   - topic-1
 description: "Sample Blog description"
 ---
-# Sample Blog Post-3
-
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat perspiciatis, quo illum, eos, labore error facilis dolores veritatis omnis delectus ullam incidunt iure neque placeat quidem odio blanditiis. Quidem, minus?
 
