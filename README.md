@@ -1,3 +1,26 @@
+## Github Pages
+Step 1. Navigate to repository as below path
+
+	https://github.com/TheCabbageBaggage/adritian
+
+Step 2. Navigate to Content folder as below path
+
+	https://github.com/TheCabbageBaggage/adritian/tree/main/content
+
+Step 3. Naviate to the folder example blog or experience and each folder has markdown file (.md extention)
+
+
+Step 4. Click on desired md file and Click on edit this file icon (available on top right) do changes as per need but maintain the format and syntax of markddown while doing changes.
+
+
+Step 5. Click on Commit changes 
+
+Step 6. Now to go Action menu and you can see changes are automatically being updated once it is completed it shows as green tick.
+
+Then you can see updated content on hugo site.
+	 
+
+
 ## Tina CMS
 
 Hugo Site is hosted on githug pages under following github repository:
